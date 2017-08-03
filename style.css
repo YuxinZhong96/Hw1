@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+body{
+	background:white;
+	font-family: "Muli",sans-serif;
+	font-size: 25px;
+	margin:0;
+}
+
+.left-column{
+	width:35vw;
+	height: 100vh;
+	position:fixed;
+	margin-left: 30px;
+}
+
+#selfimage{
+	position: fixed;
+	margin-left: 30px;
+	margin-top: 15vh;
+}
+
+#myname{
+	width: 35vw;
+	height:5vh;
+	color: #f09819;
+	position: fixed;
+	margin-left:30px;
+	margin-top: 45vh;
+	font-size: 35px;
+}
+
+#intro1{
+	width: 35vw;
+	height:5vh;
+	position: fixed;
+	margin-left:30px;
+	margin-top: 60vh;
+	font-size: 20px;
+}
+
+#intro2{
+	width: 35vw;
+	height:5vw;
+	position: fixed;
+	margin-left:30px;
+	margin-top: 65vh;
+	font-size: 20px;
+	color: #F09819;
+}
+
+#intro3{
+	width: 35vw;
+	height:5vw;
+	position: fixed;
+	margin-left:30px;
+	margin-top: 70vh;
+	font-size: 20px;
+	color: #F09819;
+}
+
+.right-column{
+	width:65vw;
+}
+
+#project1{
+	position: static;
+	margin-top: :0;
+	margin-left: 35vw;
+}
+
+#project2{
+	position: static;
+	margin-left: 35vw;
+}
+
+#project3{
+	position: static;
+	margin-left: 35vw;
+}
+
+#project4{
+	position: static;
+	margin-left: 35vw;
+}
