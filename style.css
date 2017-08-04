@@ -46,7 +46,7 @@ body{
 	margin-left:30px;
 	margin-top: 65vh;
 	font-size: 20px;
-	color: #F09819;
+	color: #9B9B9B;
 }
 
 #intro3{
@@ -56,9 +56,11 @@ body{
 	margin-left:30px;
 	margin-top: 70vh;
 	font-size: 20px;
-	color: #F09819;
+	color: #9B9B9B;
 }
 
+
+/*This is right.*/
 .right-column{
 	width:65vw;
 }
@@ -83,3 +85,4 @@ body{
 	position: static;
 	margin-left: 35vw;
 }
+
