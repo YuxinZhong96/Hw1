@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+body{
+	background:white;
+	font-family: "Muli",sans-serif;
+	font-size: 18px;
+	margin:0;
+}
+
+#myname{
+	width: 35vw;
+	height:5vh;
+	color: #000000;
+	position: fixed;
+	margin-left:60px;
+	margin-top: 2vh;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav{
+	width: 30vw;
+	float: right;
+	margin-right: 30px;
+	padding-top: 30px;
+}
+
+nav ul{
+	list-style: none;
+	position: fixed;
+	text-align: right;
+    padding-left: 30px;
+	padding-bottom:10px;
+}
+
+nav ul li{
+	display: inline;
+	padding-right: 30px;
+}
+
+nav ul li a{
+	color: black;
+	font-size: 1em;
+	font-weight:700;
+}
+
+#header{
+	border:0;
+	width:100vw;
+	height:120px;
+	margin-top:0;
+	background-color: white;
+	opacity: 0.7;
+	position: fixed;
+	z-index: 10;
+}
+
+#banner1{
+	position:static;
+	z-index: 90;
+}
+
+#ebay1{
+	position:static;
+	padding:0;
+	margin-top:0;
+}
+
+#infor{
+    width: 800px;
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+	position: static;
+	color: #9b9b9b;
+	margin-left: 18vw;
+	line-height: 30px;
+}
+
+
+#text{
+	width: 800px;
+	font-size: 18px;
+	margin-top: 40px;
+	text-align: justify;
+	position: static;
+	top:50%;
+	left: 50%;
+	color: #5b5b5b;
+	margin-left: 19vw;
+	line-height: 25px;
+}
+
+.chapter{
+	font-size: 25px;
+	margin-left: 44.5vw;
+	margin-top: 80px;
+	color: #f06a73;
+	font-weight: bold;
+}
+
+#image{
+    position: static;
+    margin-left: 0vw;
+    margin-top:20px;
+
+}
+
+#boxleft{
+    float: left;
+    color: white;
+    width: 50vw;
+    height: 15vh;
+    background-color: #e5e7e9;
+    margin-top:80px;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#boxright{
+	float: right;
+    width: 50vw;
+    height: 15vh;
+    background-color: #ffc952;
+    margin-top:80px;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+}

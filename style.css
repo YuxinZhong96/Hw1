@@ -17,7 +17,7 @@ body{
 #selfimage{
 	position: fixed;
 	margin-left: 30px;
-	margin-top: 15vh;
+	margin-top: 30vh;
 }
 
 #myname{
@@ -26,8 +26,8 @@ body{
 	color: #f09819;
 	position: fixed;
 	margin-left:30px;
-	margin-top: 45vh;
-	font-size: 35px;
+	margin-top: 2vh;
+	font-size: 25px;
 }
 
 #intro1{
@@ -35,8 +35,8 @@ body{
 	height:5vh;
 	position: fixed;
 	margin-left:30px;
-	margin-top: 60vh;
-	font-size: 20px;
+	margin-top: 55vh;
+	font-size: 18px;
 }
 
 #intro2{
@@ -44,8 +44,8 @@ body{
 	height:5vw;
 	position: fixed;
 	margin-left:30px;
-	margin-top: 65vh;
-	font-size: 20px;
+	margin-top: 60vh;
+	font-size: 18px;
 	color: #9B9B9B;
 }
 
@@ -54,8 +54,18 @@ body{
 	height:5vw;
 	position: fixed;
 	margin-left:30px;
+	margin-top: 65vh;
+	font-size: 18px;
+	color: #9B9B9B;
+}
+
+#intro4{
+	width: 35vw;
+	height:5vw;
+	position: fixed;
+	margin-left:30px;
 	margin-top: 70vh;
-	font-size: 20px;
+	font-size: 18px;
 	color: #9B9B9B;
 }
 
@@ -63,6 +73,7 @@ body{
 /*This is right.*/
 .right-column{
 	width:65vw;
+	padding:0;
 }
 
 #project1{
@@ -71,10 +82,27 @@ body{
 	margin-left: 35vw;
 }
 
+#blackbox1{
+	position: absolute;
+	margin-top: 0;
+	margin-left: 35vw;
+	width: 850px;
+	height: 350px；
+	background-color: #000000;
+	opacity: 0; 
+}
+
+#blackbox1:hover{
+	opacity: 0.2;
+	transformation-duration:0.01s 
+}
+
+
 #project2{
 	position: static;
 	margin-left: 35vw;
 }
+
 
 #project3{
 	position: static;
@@ -86,3 +114,7 @@ body{
 	margin-left: 35vw;
 }
 
+#aboutme{
+	position: static;
+	margin-left: 35vw;
+}
